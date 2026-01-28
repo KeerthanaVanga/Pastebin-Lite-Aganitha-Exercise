@@ -13,6 +13,7 @@ A lightweight pastebin application that allows users to create text pastes and s
 
 ## How to Run Locally
 
+
 ### Prerequisites
 
 - Node.js (v18 or higher)
