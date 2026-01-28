@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+
+# Environment and secrets (never commit Redis URL or tokens)
+.env
+.env.local
+.env.*.local
+src/.env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Build / output
+dist/
+build/
+*.tgz
+
+# Optional
+Paste.zip

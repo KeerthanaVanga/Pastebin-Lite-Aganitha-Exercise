@@ -1,0 +1,21 @@
+{
+  "name": "paste",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "verify-redis": "node scripts/verify-redis.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "escape-html": "^1.0.3",
+    "express": "^5.2.1",
+    "nanoid": "^5.1.6",
+    "redis": "^5.10.0"
+  }
+}
